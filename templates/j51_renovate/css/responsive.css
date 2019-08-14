@@ -1,0 +1,151 @@
+img {max-width: 100% ;} 
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+    
+    
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+.wrapper960, #header_items, #header, #logo, .hornavmenu {width:768px !important;}
+#logo {width:747px !important;}
+#sidecol_a, #sidecol_b {
+	width:100% !important;
+}
+#content_remainder {
+	width: 100% !important;
+}
+#sidecol_b .sidecol_block {padding:0px;}
+#container_slideshow {
+	padding-top:0px;
+}
+
+#container_spacer1 {
+    display:none;
+}
+
+#container_slideshow .wrapper960 {width:100% !important;}
+#body_bg {
+    box-shadow: none;
+}
+
+/* Remove Modules */
+#socialmedia, #search {display:none;}
+
+/* Hide default hornav menu */
+#hornav, .hornavmenu {display:none !important;}
+
+/* Show mobile hornav menu */
+.hornavmenumobile {display:inline; z-index: 99; }
+
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+@media only screen and ( max-width: 767px ) {
+
+#sidecol_a, #sidecol_b, .items-row .item {
+	width:100% !important;
+}
+#content_remainder {
+	width: 100% !important;
+}
+.wrapper960, #header, .hornavmenu {
+	width:440px !important;
+}
+#logo {width:418px !important;}
+.top-1, .top-2, .top-3, .contenttop, .contentbottom, .bottom-1, .bottom-2, .base-1, .base-2 {
+	width:100% !important;
+}
+#container_header {
+	position:relative !important;
+}
+#container_spacer1 {
+    display:none;
+}
+#container_slideshow {
+    position:relative !important;
+	padding:25px 0px;
+}
+.slidesjs-previous.slidesjs-navigation, .slidesjs-next.slidesjs-navigation {
+margin-top: -25px;
+}
+#body_bg {
+    box-shadow: none;
+}
+
+/* Hide default hornav menu */
+#hornav, .hornavmenu {display:none !important;}
+
+/* Show mobile hornav menu */
+.hornavmenumobile {display:inline; z-index: 99; margin-top:13px;}
+
+
+/* Remove Modules */
+#socialmedia, #search {display:none;}
+
+.maincontent img {
+	margin: 0px 5px !important;
+}
+
+}
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 440px) {
+	
+.wrapper960, #header, .hornavmenu {
+	width:290px !important;
+}
+.wrapper960 {
+}
+#logo {width:270px !important;}
+#content_remainder, .items-row .item {
+    width: 100% !important;
+}
+.top-1, .top-2, .top-3, .contenttop, .contentbottom, .bottom-1, .bottom-2, .base-1, .base-2, #sidecol_a, #sidecol_b {
+	width:100% !important;
+}
+#container_slideshow {
+	padding:25px 0px;
+}
+.slidesjs-previous.slidesjs-navigation, .slidesjs-next.slidesjs-navigation {
+margin-top: -25px;
+}
+#container_main .wrapper960 {
+    margin-top: 0px;
+}
+
+#footermenu {
+    float: left;
+}
+.j51container, .j51container .mask, 
+.j51container .content
+{width:250px !important;
+}	
+/* Hide default hornav menu */
+#hornav{display:none !important;}
+
+/* Show mobile hornav menu */
+.hornavmenumobile {display:inline; z-index: 99; margin-top:13px;}
+
+/* Link Hover Module Adjust */
+.j51container, .j51container .mask, 
+.j51container .content {
+	max-width:220px !important;
+}
+
+#socialmedia, .module_spacer, #search {display:none;}
+
+}
+
+
